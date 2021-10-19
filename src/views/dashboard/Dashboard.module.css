@@ -1,0 +1,91 @@
+.dashboard {
+       padding: 7rem 0;
+       background-color:  #E1E1E1;
+       font-family: 'Roboto', sans-serif;
+       /* overflow: hidden; */
+}
+
+.dashboard > h2 {
+       font-size: 3.6rem;
+       color: #222428;
+       font-family: 'Roboto', sans-serif;
+       text-align: left;
+       margin: 4rem 0 2rem 0;
+       padding-left: 9rem;  
+}
+.carddata{
+       display: flex;
+       justify-content: space-between;
+       padding: 0 9rem;
+}
+
+
+.quicklinks h2 {
+       font-size: 1.8rem;
+       color: #222428;
+       font-family: 'Roboto', sans-serif;
+       text-align: left;
+       margin: 6rem 0 1rem 0;    
+       padding-left: 9rem;  
+}
+
+.quickdata {
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 5rem;
+       padding: 0 9rem 5rem 9rem;
+}
+.quickdata > p {
+       font-size: 1.8rem;
+       color: #222428;
+       font-family: 'Roboto', sans-serif;
+       padding-left: 9rem;  
+}
+
+.chart {
+       padding: 6rem 0 4rem 0;
+       background-color: #fff;
+}
+
+.chart h3 {
+font-size: 2.4rem;
+text-align: left;
+color: #222428;
+}
+
+.charts {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+}
+.funds {
+       padding: 6rem 0;
+}
+.funds  p{
+       font-size: 1.4rem;
+       margin-left: -10rem;
+       color: #222428;
+}
+.funds span{
+       display: flex;
+       justify-content: center;
+       /* margin-left: -5rem; */
+}
+
+.funds span img {
+       padding-right: 3rem ;
+}
+
+@media screen  and (max-width: 960px) {
+       .carddata , .quickdata, .charts{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+       }
+
+       .carddata > div {
+              margin-left:-4rem ;
+       }
+
+  
+}
